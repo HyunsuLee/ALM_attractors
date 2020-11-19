@@ -12,7 +12,7 @@ rng('shuffle')
 
 %% Network params
 
-N_trials = 1000;
+N_trials = 4;
 
 % Membrane time constant
 tauc = 100;

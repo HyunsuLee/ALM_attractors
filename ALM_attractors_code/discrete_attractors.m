@@ -12,7 +12,7 @@ rng('shuffle')
 
 %% Network params
 
-N_trials = 1000;
+N_trials = 4;
 
 % Membrane time constant
 tauc = 100;
@@ -61,7 +61,7 @@ switch network_str
     
     case 'one_hemi_multi_fp_step'
         % one hemi
-        stim_sigma = 0.1;
+        stim_sigma = 0.1
         stim_amp = 0.8;
         
         % amplitude of fast noise

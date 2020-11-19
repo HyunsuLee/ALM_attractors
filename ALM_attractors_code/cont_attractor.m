@@ -14,7 +14,7 @@ rng('shuffle')
 %% Set parameters
 
 %total number of trials
-N_trials = 1000;
+N_trials = 1;
 
 %%% synaptic weights
 jCC = 150;
